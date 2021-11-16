@@ -1,0 +1,60 @@
+body {
+  background-image: url(./assets/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#header {
+  height: 100px;
+  background-color: dodgerblue;
+  margin-bottom: 20px;
+}
+#header > h1,
+h3 {
+  text-align: center;
+}
+#header > h3 {
+  color: blue;
+}
+
+#navbar {
+  background-color: gray;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#navbar > li {
+  float: left;
+  margin-right: 20px;
+  padding: 15px;
+}
+#navbar > li > a {
+  color: black;
+  text-decoration: none;
+}
+#navbar > li > a:hover {
+  background-color: white;
+}
+
+#aside {
+  float: left;
+  background-color: black;
+  color: white;
+}
+
+#content {
+  float: right;
+  background-color: blueviolet;
+}
+#content > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#content > table {
+  width: 300px;
+  border: 1px solid red;
+}
